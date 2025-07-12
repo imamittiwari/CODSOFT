@@ -366,7 +366,7 @@ class TodoApp:
     def start_water_reminder(self):
         def water_reminder():
             while True:
-                time.sleep(1800)  # 30 minutes = 1800 seconds
+                time.sleep(300)  # 30 minutes = 1800 seconds
                 if self.water_reminder_active:
                     self.show_water_reminder()
                     
