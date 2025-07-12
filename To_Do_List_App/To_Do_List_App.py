@@ -299,7 +299,7 @@ class TodoApp:
                 messagebox.showerror("Error", "Invalid date/time format! Use YYYY-MM-DD for date and HH:MM for time.")
                 
     def remove_scheduled_task(self):
-        selection = self.scheduled_listbox.curselection()
+        selection = self.scheduled_listbox.curselection() 
         if selection:
             task = self.scheduled_tasks[selection[0]]
             if messagebox.askyesno("Remove Scheduled Task", f"Remove scheduled task: {task['text']}?"):

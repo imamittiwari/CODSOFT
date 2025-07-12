@@ -1,7 +1,7 @@
 import math
 
 def get_number(prompt):
-    """Get a valid number (integer or float) from user input"""
+    """Get a valid number (integer or float) from user input""" 
     while True:
         try:
             user_input = input(prompt).strip()
