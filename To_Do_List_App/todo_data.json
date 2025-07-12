@@ -1,0 +1,21 @@
+{
+  "tasks": [],
+  "completed_tasks": [
+    {
+      "text": "reading",
+      "priority": "High",
+      "created": "2025-07-12 14:02",
+      "completed": "2025-07-12 14:02"
+    }
+  ],
+  "streak_count": 1,
+  "last_completed_date": "2025-07-12",
+  "water_reminder_active": true,
+  "scheduled_tasks": [
+    {
+      "text": "writing",
+      "datetime": "2025-07-13 14:08:00",
+      "created": "2025-07-12 14:06"
+    }
+  ]
+}
